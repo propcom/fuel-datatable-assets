@@ -1,0 +1,15 @@
+#datatable-apply-filters {
+	float: right;
+}
+
+table.datatable label {
+	width: 40px;
+	margin-right: 4px;
+	clear: left;
+}
+
+table.datatable input,
+table.datatable select,
+table.datatable textarea {
+	width: 150px;
+}
