@@ -5,7 +5,9 @@
 table.datatable label {
 	width: 40px;
 	margin-right: 4px;
+	float: left;
 	clear: left;
+	height: 24px;
 }
 
 table.datatable input,
