@@ -1,17 +1,27 @@
-#datatable-apply-filters {
-	float: right;
-}
-
 table.datatable label {
 	width: 40px;
-	margin-right: 4px;
-	float: left;
-	clear: left;
-	height: 24px;
+	display: inline;
 }
 
 table.datatable input,
-table.datatable select,
-table.datatable textarea {
+table.datatable select {
 	width: 150px;
+}
+
+table.datatable input[type=number] {
+	width: 60px;
+}
+
+#datatable-apply-filters {
+	float: right;
+	width: 90px;
+}
+
+table.datatable .datatable-filters td {
+	padding-bottom: 0;
+}
+
+table.datatable .datatable-filters-apply td {
+	padding-top: 0;
+	padding-bottom: 0;
 }
