@@ -9,12 +9,25 @@ table.datatable select {
 }
 
 table.datatable input[type=number] {
+	margin-bottom: 5px;
 	width: 60px;
+}
+.datatable-filter-buttons {
+	overflow:auto;
+	margin-bottom:10px;
+}
+
+table.datatable .datatable-filters .number label {
+	display:inline-block;
+	width: 30px;
 }
 
 #datatable-apply-filters {
-	float: right;
 	width: 90px;
+}
+
+#datatable-reset-filters {
+	margin-left:10px;
 }
 
 table.datatable .datatable-filters td {
