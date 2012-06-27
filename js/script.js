@@ -159,7 +159,7 @@ $(document).ready(function() {
 	}
 
 	function date_pickers() {
-		$('.datatable-filter.date, .filter-date-from, .filter-date-to, .inline-edit.date').datepicker({
+		$('input.datatable-filter.date, .filter-date-from, .filter-date-to, .inline-edit.date').datepicker({
 			'dateFormat':'dd M yy',
 			'onClose': function(dateText, inst) {
 				$(this).trigger('keyup');
