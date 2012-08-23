@@ -23,6 +23,11 @@ table.datatable .datatable-filters .number label {
 	width: 30px;
 }
 
+table.datatable .datatable-filter.date label {
+	display:inline-block;
+	width: 30px;
+}
+
 #datatable-apply-filters {
 	width: 90px;
 }
