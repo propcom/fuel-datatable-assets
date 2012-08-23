@@ -5,6 +5,7 @@ table.datatable label {
 
 table.datatable input,
 table.datatable select {
+	margin-bottom: 8px;
 	width: 150px;
 }
 
