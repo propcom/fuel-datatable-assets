@@ -153,20 +153,20 @@ $(document).ready(function() {
 			else {
 				$('#'+id+' tr.headers').after(data);
 			}
-			
+
 			$('html, body').animate({ scrollTop: $('h1').offset().top });
 		});
 	}
 
 	function date_pickers() {
-		$('.datatable-filter.date, .filter-date-from, .filter-date-to, .inline-edit.date').datepicker({
+		$('input.datatable-filter.date, input.filter-date-from, input.filter-date-to, input.inline-edit.date').datepicker({
 			'dateFormat':'dd M yy',
 			'onClose': function(dateText, inst) {
 				$(this).trigger('keyup');
 			}
 		});
 
-		$('.filter-datetime-from, .filter-datetime-to, .inline-edit.datetime').datetimepicker({
+		$('input.filter-datetime-from, input.filter-datetime-to, input.inline-edit.datetime').datetimepicker({
 			'dateFormat':'dd M yy',
 			'timeFormat': 'hh:mm:ss',
 			'showSecond': true,
