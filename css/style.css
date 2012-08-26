@@ -30,6 +30,7 @@ table.datatable .datatable-filter.date label {
 
 #datatable-apply-filters {
 	width: 90px;
+	height: 28px;
 }
 
 #datatable-reset-filters {
