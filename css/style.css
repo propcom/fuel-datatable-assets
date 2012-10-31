@@ -45,3 +45,7 @@ table.datatable .datatable-filters-apply td {
 	padding-top: 0;
 	padding-bottom: 0;
 }
+
+.datatable-filter-buttons {
+    overflow: hidden;
+}
