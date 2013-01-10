@@ -15,7 +15,7 @@ table.datatable input[type=number] {
 }
 .datatable-filter-buttons {
 	overflow:auto;
-	margin-bottom:10px;
+    clear: both;
 }
 
 table.datatable .datatable-filters .number label {
@@ -48,4 +48,12 @@ table.datatable .datatable-filters-apply td {
 
 .datatable-filter-buttons {
     overflow: hidden;
+}
+
+div.datatable-filter {
+    float:left;
+    margin: 5px 10px;
+}
+.datatable-filter-bool select {
+    width:80px;
 }
