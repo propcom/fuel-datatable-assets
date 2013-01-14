@@ -57,3 +57,7 @@ div.datatable-filter {
 .datatable-filter-bool select {
     width:80px;
 }
+
+.datatable th:last-child, .datatable td:last-child {
+        text-align: right !important;
+}
