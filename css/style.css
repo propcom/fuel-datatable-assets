@@ -52,7 +52,6 @@ table.datatable .datatable-filters-apply td {
 
 div.datatable-filter {
     float:left;
-    margin: 5px 10px;
 }
 .datatable-filter-bool select {
     width:80px;
