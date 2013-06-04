@@ -9,6 +9,10 @@ table.datatable select {
 	width: 150px;
 }
 
+table.datatable input.bulk-check {
+	width: 15px;
+}
+
 table.datatable input[type=number] {
 	margin-bottom: 5px;
 	width: 60px;
