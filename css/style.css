@@ -60,3 +60,19 @@ div.datatable-filter {
 .datatable th:last-child, .datatable td:last-child {
         text-align: right !important;
 }
+
+.datatable-npp-container {
+	float: right;
+}
+
+.datatable-npp-container ul {
+	float: left;
+}
+
+.datatable-npp-prefix {
+	font-weight: bold;
+	display: block;
+	width: 135px;
+	float: left;
+	margin-top: 5px;
+}
