@@ -64,10 +64,10 @@ $(document).ready(function() {
 
 	$('#dt-bulk-select-all').live('change', function() {
 		if ($(this).is(':checked')) {
-			$('.bulk-check:not(#dt-bulk-select-all)').attr('checked', 'checked');
+			$('.js-bulk-check:not(#dt-bulk-select-all)').attr('checked', 'checked');
 		}
 		else {
-			$('.bulk-check:not(#dt-bulk-select-all)').removeAttr('checked');
+			$('.js-bulk-check:not(#dt-bulk-select-all)').removeAttr('checked');
 		}
 	});
 
