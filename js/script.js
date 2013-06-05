@@ -62,6 +62,15 @@ $(document).ready(function() {
 		}
 	});
 
+	$('#dt-bulk-select-all').live('change', function() {
+		if ($(this).is(':checked')) {
+			$('.js-bulk-check:not(#dt-bulk-select-all)').attr('checked', 'checked');
+		}
+		else {
+			$('.js-bulk-check:not(#dt-bulk-select-all)').removeAttr('checked');
+		}
+	});
+
 	$('.inline-edit-save').live('click', function() {
 		var table_json = $(this).closest('.data-table-wrapper').find('.table-def').val();
 		var col = $(this).closest('table').find('tr.headers th').eq($(this).parent().index() - 1).find('.header-name').val();

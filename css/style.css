@@ -9,8 +9,12 @@ table.datatable select {
 	width: 150px;
 }
 
-table.datatable input.bulk-check {
+table.datatable input.js-bulk-check {
 	width: 15px;
+}
+
+table.datatable .bulk-check-field {
+	width: 20px;
 }
 
 table.datatable input[type=number] {
