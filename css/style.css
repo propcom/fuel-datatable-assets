@@ -36,11 +36,6 @@ table.datatable .datatable-filter.date label {
 	width: 30px;
 }
 
-#datatable-apply-filters {
-	width: 90px;
-	height: 28px;
-}
-
 #datatable-reset-filters {
 	margin-left:10px;
 }
